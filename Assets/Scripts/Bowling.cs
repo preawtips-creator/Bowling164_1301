@@ -24,7 +24,7 @@ public class Bowling : MonoBehaviour
         if (Keyboard.current.rightArrowKey.isPressed)
             MoveRight();
         if (Keyboard.current.leftArrowKey.isPressed)
-            MoveRight();
+            MoveLeft();
     }
     private void ShootBall()
     {
