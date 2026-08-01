@@ -26,7 +26,7 @@ public class Bowling : MonoBehaviour
         if (Keyboard.current.leftArrowKey.isPressed)
             MoveLeft();
     }
-    private void ShootBall()
+    public void ShootBall()
     {
         rb.AddForce(Vector3.forward*forcePower, ForceMode.Impulse);
     }
